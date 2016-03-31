@@ -15,11 +15,31 @@ Install
 Change the default setting
 ---------------
 
+Change the configuration file which will generate when your first time launch this application.
+
+```
+{
+	"WebhookUrl" : "",	
+	"BotName" : "",
+	"Channel" : "000",
+	"Icon_emoji" : ":octocat:"
+}
+```
+Detail explaination as follow:
+
+- `WebhookUrl`: Get url from https://api.slack.com/incoming-webhooks
+- `BotName`: The name display of your bot
+- `Channel`: The channel your bot want to push message
+- `Icon_emoji`: The emoji of your bot, such `:octocat:`. Refer http://www.emoji-cheat-sheet.com/ for more
+
+Fill all infor base on this [page](https://api.slack.com/incoming-webhooks)
 
 Usage
 ---------------
 
-```go
+```
+//Pass message to slack
+slack-console -m "test msg"
 
 ```
 
