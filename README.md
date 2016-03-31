@@ -21,8 +21,8 @@ Change the configuration file which will generate when your first time launch th
 {
 	"WebhookUrl" : "",	
 	"BotName" : "",
-	"Channel" : "000",
-	"Icon_emoji" : ":octocat:"
+	"Channel" : "",
+	"Icon_emoji" : ""
 }
 ```
 Detail explaination as follow:
